@@ -13,7 +13,7 @@ app.use(express.json());
 
 //konfigurasi headers
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://127.0.0.1:5500'); // Ganti dengan domain atau port klien Anda
+  res.header('Access-Control-Allow-Origin', 'https://kampus-merdeka-software-engineering.github.io'); // Ganti dengan domain atau port klien Anda
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
